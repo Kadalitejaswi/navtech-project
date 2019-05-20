@@ -1,0 +1,37 @@
+<button type="submit" class="btn btn-primary"><a routerLink="/product" class="text-white">Add User</a></button> 
+<h1>Orders</h1>
+
+<!--<div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">-->
+
+            <table class="table table-striped">
+            <th scope="col">Order No.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Ordered Date</th>
+            <th scope="col">Customer Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Order Total</th>
+            <th scope="col">Delete</th>
+            <th scope="col">Edit</th>
+            <tr *ngFor="let order of orders">
+            <td>{{order.id}}</td>
+                <td>{{order.name}}</td>
+                <td>{{order.orderdate}}</td>
+                <td>{{order.customer}}</td>
+                <td>{{order.address}}</td>
+                <td>{{order.phone}}</td>
+                <td>{{order.ordertotal}}</td>
+
+                  <td (click)="deletOrder(order.id)"><a>DELETE</a></td>
+                  <td [routerLink]="['/editOrder',order.id]"><a>EDIT</a></td>
+            </tr>
+            </table>
+            <button type="submit" class="btn btn-primary"><a routerLink="/login" class="text-white">Back</a></button> 
+
+       <!--   </div>
+        </div>
+      </div>
+    </div>-->

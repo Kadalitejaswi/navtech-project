@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "name": "Biryani",
+      "orderdate": "1-2-2019",
+      "customer": "Swetha33",
+      "address": "2-53, CHALKURU BLOCK 5-1 2, SOMANDEPALLI MANDAL",
+      "phone": "9550747620",
+      "ordertotal": "200",
+      "id": 6
+    },
+    {
+      "name": "Biryani",
+      "orderdate": "1-2-2019",
+      "customer": "Vasu",
+      "address": "2-53, CHALKURU BLOCK 5-1 2, SOMANDEPALLI MANDAL",
+      "phone": "9550747620",
+      "ordertotal": "600",
+      "id": 8
+    },
+    {
+      "name": "noodles",
+      "orderdate": "23-03-2019",
+      "customer": "bhavya",
+      "address": "nuzid",
+      "phone": "96325874100",
+      "id": 10
+    },
+    {
+      "name": "Faluda",
+      "orderdate": "23-5-2019",
+      "customer": "Tejaswi",
+      "address": "p and t colony , Rajahmundry",
+      "phone": "9177297969",
+      "ordertotal": "400",
+      "id": 11
+    },
+    {
+      "name": "biriyani",
+      "orderdate": "23-3-2016",
+      "customer": "bhavya",
+      "address": "rjy",
+      "phone": "9632587410",
+      "ordertotal": "600",
+      "id": 13
+    },
+    {
+      "name": "popcorn",
+      "orderdate": "22-04-2019",
+      "customer": "lakshmi",
+      "address": "tenali",
+      "phone": "236597410",
+      "id": 14
+    }
+  ]
+}
